@@ -4,6 +4,7 @@
 }
 body {
   margin: auto;
+  width: 100%;
 }
 
 p {
@@ -120,15 +121,51 @@ header {
   padding-bottom: 10%;
 }
 
-h2 {
+.divH3Tools h3 {
+  font-weight: bold;
+  font-size: small;
+  border-radius: 40px;
+  width: 50px;
+  text-align: center;
+  padding: 3px;
+}
+.divH3Features h3 {
+  font-weight: bold;
+  font-size: small;
+  border-radius: 40px;
+  width: 70px;
+  text-align: center;
+  padding: 3px;
+}
+.divH3Tech h3 {
+  font-weight: bold;
+  font-size: small;
+  border-radius: 40px;
+  width: 90px;
+  text-align: center;
+  padding: 3px;
+}
+
+.divH3Easy h3 {
+  font-weight: bold;
+  font-size: small;
+  border-radius: 40px;
+  width: 105px;
+  padding: 3px;
+  text-align: center;
+}
+
+.divH3Awards h3 {
+  font-weight: bold;
+  font-size: small;
+  border-radius: 40px;
+  width: 60px;
+  padding: 3px;
+  text-align: center;
 }
 
 h3 {
-  color: red;
-  font-weight: bold;
-  font-size: 110em;
-  border-radius: 40px;
-  width: auto;
+  color: white;
 }
 
 .yellow {
@@ -232,48 +269,61 @@ li a:hover {
 }
 
 .headerCard {
-  background-color: whitesmoke;
+  background-color: white;
   color: rgb(85, 81, 81);
   border-radius: 10px;
   border-end-end-radius: 40px;
   padding: 20px;
   width: auto;
   position: absolute;
-  width: 40%;
-  transform: translate(150%, -20%);
+  width: 400px;
+  transform: translate(120%, -10%);
 }
 
 .manageCards {
   display: flex;
   justify-content: space-between;
+  position: relative;
+  margin-bottom: 15px;
 }
 
-.card {
-  background-color: #161348;
+.bankCard {
+  background: #161348;
   border-radius: 10px;
   border: none;
-  display: inline-block;
+  color: white;
+  padding: 15px;
+  position: relative;
 }
 
-.cardTop {
-  display: flex;
-  justify-content: space-between;
+.bankCard label {
+  font-size: x-small;
+}
+
+.cardNumber p {
+  font-size: medium;
 }
 
 .cardLogo {
   width: auto;
   height: 20px;
+  margin-bottom: 20px;
 }
 
 .activeBtn {
   background-color: #5ccaa7;
   border-radius: 2px;
   padding: 4px;
-  color: whitesmoke;
+  color: white;
+  position: absolute;
+  transform: translate(600%, -150%);
 }
 
 .cardInfos {
   display: flex;
+}
+.cardInfos div {
+  margin-right: 50px;
 }
 
 .brandDisplay {
@@ -281,7 +331,7 @@ li a:hover {
   justify-content: space-between;
   border-bottom: 1px solid rgb(212, 212, 212);
   margin-bottom: 10px;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 .viewAll {
@@ -463,6 +513,12 @@ li a:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: -30px;
+}
+
+.name {
+  margin: 5px;
+  margin-bottom: 20px;
 }
 
 .initialsRound {
@@ -472,51 +528,57 @@ li a:hover {
   height: 20px;
   padding-left: 5px;
   padding-top: 2px;
+  margin-right: 5px;
+  margin-top: -10px;
+}
+
+.heart {
+  margin-top: -10px;
 }
 
 .person3Img {
   margin: 0;
   padding: 0;
-  width: 150px;
+  width: 180px;
   height: auto;
+  margin-top: -30px;
+  margin-bottom: 10px;
 }
 
 .checkRound {
   background-color: #5ccaa7;
   border-radius: 50%;
-  width: 30px;
-  height: 30px;
+  width: 25px;
+  height: 25px;
   position: relative;
+  margin-right: 5px;
 }
 
 .checkRoundIcon {
   color: white;
   font-weight: bold;
-  width: 20px;
+  width: 15px;
   margin-left: 5px;
   margin-top: 5px;
   position: absolute;
 }
-.cardFlex {
-  margin: 10px;
-  background-color: white;
-  box-shadow: 2px 2px 2px 2px rgba(180, 180, 180, 0.2);
-  border-radius: 10px;
-  width: 150px;
-  height: auto;
-  padding: 10px;
-  padding-top: 30px;
-  padding-bottom: 30px;
+.flex {
   display: inline-flex;
   justify-content: center;
   margin: auto;
   align-items: center;
 }
 
+.flex div div {
+  font-size: xx-small;
+}
+
 .techImg {
+  width: 400px;
+  height: auto;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 /*------------------------------easy------------------------------------*/
 .easyToInstallSection {
@@ -601,7 +663,7 @@ li a:hover {
   background-color: white;
   box-shadow: 2px 2px 2px 2px rgba(180, 180, 180, 0.2);
   border-radius: 10px;
-  width: 150px;
+  width: 180px;
   height: auto;
   padding: 10px;
   padding-top: 30px;
@@ -612,6 +674,18 @@ li a:hover {
   align-items: center;
 }
 
+.card:hover {
+  background-color: rgba(180, 180, 180, 0.2);
+}
+
+.impairCard {
+  margin-top: 80px;
+}
+
+.btnCard {
+  border: none;
+  background-color: transparent;
+}
 .coloredLogo {
   width: auto;
   margin: auto;
@@ -648,17 +722,20 @@ li a:hover {
 }
 /*------------------------------help------------------------------------*/
 .HelpfulAnswersSection {
-  margin: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+.helpH4 {
+  margin-left: 120px;
 }
 
 .buttonAnwersDisplay {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-left: -35px;
 }
 
 /*----------------------footer-----------------------*/

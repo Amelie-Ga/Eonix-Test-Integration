@@ -55,7 +55,7 @@
         <section class="headerSection">
         <!-- ------------------------------ header Section text ------------------------------------------ -->
           <div class="headerText">
-            <h2>
+            <h2 class="h2 pBold textWhite">
               Development <br />
               done right
             </h2>
@@ -96,32 +96,33 @@
                 <button class="btn3">Add new</button>
             </div>
              <!-- --------- card ----------- -->
-
-            <div class="card">
-                <div class="cardTop">
-                  <img src="images/mastercard.svg" class="cardLogo"/>
-                  <p class="activeBtn">Active</p>
+            
+            <div class="bankCard">
                 <div>
-
-                <div class="cardNumber">
-                    <label>CARD NUMBER</label>
-                    <p>4358 ● 7421 ● 9256 ● 6682</p>
-                </div>
-
-                <div class="cardInfos">
-                    <div>
-                        <label>NAME</label>
-                        <p>John Snow</p>
+                    <img src="images/mastercard.svg" class="cardLogo"/>
+                    <p class="activeBtn">Active</p>
+                    <div class="cardNumber">
+                        <label>CARD NUMBER</label>
+                        <p>4358 ● 7421 ● 9256 ● 6682</p>
                     </div>
-                    <div>
-                        <label>EXPIRY DATE</label>
-                        <p>11/23</p>
+
+                    <div class="cardInfos">
+                        <div>
+                            <label>NAME</label>
+                            <p>John Snow</p>
+                        </div>
+                        <div>
+                            <label>EXPIRY DATE</label>
+                            <p>11/23</p>
+                        </div>
                     </div>
                 </div>
+               
+
             </div>
             
 
-             <!-- ---------brands card----------- -->
+             <!-- ---------brands card-----------  -->
             <div >
               <div class="brandDisplay">
                 <div>
@@ -148,6 +149,7 @@
                 </a>
               </div>
             </div>
+           
 
           </div>
 
@@ -214,8 +216,10 @@
         </div>
 
         <div class="toolsText">
-            <h3 class="yellow">Tools</h3>
-            <h4>We build for designers and <br/>developers</h4>
+            <div class="divH3Tools">
+                <h3 class="yellow">Tools</h3>
+            </div>
+            <h4 class="pBold">We build for designers and <br/>developers</h4>
             <p class="gray">Get components and examples, including tons of <br/>variables that will help you grow your business.</p>
         </div>
 
@@ -224,7 +228,9 @@
 
       <section class="easyToInstallSection">
          <div class="installText">
-            <h3 class="green">Features</h3>
+            <div class="divH3Features">
+                <h3 class="green">Features</h3>
+            </div>
             <p class="pBold">Get components and examples, including <br/>  tons of variables that will help you grow your <br/>  business.</p>
             <div>
                 <div class="checked">
@@ -260,11 +266,12 @@
       </section>
 
 
-      <!-- ------------------------------ technonolies Section -------------------------------------------- -->
+      <!-- ------------------------------ tech Section -------------------------------------------- -->
       <section class="technologiesSection">
         <!-- ---------img tech------------------ -->
         <div class="techImg">
             <div>
+                
                 <div class="card">
                     <div>
                         <img src="images/person_03.jpg" alt="portrait homme" class="person3Img"/>
@@ -273,22 +280,24 @@
                         <div class="initialsRound">
                             <p class="textWhite textXSmall">JH</p>
                         </div>
-                        <p class="pBold textXSmall"> Jimmy Hendrix </p>
-                          <svg xmlns="http://www.w3.org/2000/svg" class="icons" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <p class="pBold textXSmall name"> Jimmy Hendrix </p>
+                          <svg xmlns="http://www.w3.org/2000/svg" class="icons heart" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
                         </svg>
                     </div>
                 </div>
 
-                <div class="cardFlex">
-                    <div class="checkRound">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="checkRoundIcon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-                        </svg>
-                    </div>
-                    <div>
-                        <p class="pBold">300+ components</p>
-                        <p class="textXSmall">Built to be customized.</p>
+                <div class="card">
+                    <div class="flex">
+                        <div class="checkRound">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="checkRoundIcon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                            </svg>
+                        </div>
+                        <div>
+                            <p class="pBold">300+ components</p>
+                            <p class="textXSmall">Built to be customized.</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -351,9 +360,11 @@
         </div>
         <!-- ---------text tech------------------ -->
          <div class="installText">
-            <h3 class="blue">Technology</h3>
+            <div class="divH3Tech">
+                <h3 class="blue">Technology</h3>
+            </div>
             <h4 class="pBold">We use the latest <br/>technologies on the market</h4>
-            <p>Get components and examples, including tons <br/> of variables that will help you grow your business.</p>
+            <p class="gray">Get components and examples, including tons <br/> of variables that will help you grow your business.</p>
             <a href="#" class="techLink">See case studies</a>
         </div>
       </section>
@@ -363,9 +374,11 @@
       <!-- ------------------------------ easy to install Section ----------------------------------------- -->
       <section class="easyToInstallSection">
         <div class="intallText">
-            <h3 class="yellow">Easy to install</h3>
+            <div class="divH3Easy">
+                <h3 class="yellow">Easy to install</h3>
+            </div>
             <h4 class="pBold">Download, install and run.</h4>
-            <p>Get components and examples, including tons of variables <br/> that will help you grow your business.</p>
+            <p class="gray">Get components and examples, including tons of variables <br/> that will help you grow your business.</p>
             <div>
                 <button class="btnDownload"><img src="images/appStore.svg" alt"app Store"/></button>
                  <button class="btnDownload"><img src="images/GooglePlayBadge.svg" alt"app Store" class="googleStore"/></button>
@@ -408,77 +421,88 @@
     <section class="AwardsSection">
       <div class="wrapper">
          <div class="AwardsText">
-            <h3 class="blue">Awards</h3>
+            <div class="divH3Awards">
+                <h3 class="blue">Awards</h3>
+            </div>
             <p class="pBold">Awards for design, creativity, and innovation on the Internet</p>
         </div>
         <!-- --------------cards-------------- -->
         <div class="cards">
-
-            <div class="card">
-                <img src="images/airbnb.svg" alt="airbnb logo" class="coloredLogo"/>
-                <!-- ------------------stars---------------- -->
-                <div class="starDisplay">
+            <button class="btnCard">
+                <div class="card impairCard">
+                    <img src="images/airbnb.svg" alt="airbnb logo" class="coloredLogo"/>
+                    <!-- ------------------stars---------------- -->
+                    <div class="starDisplay">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="star" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                    </svg>
                     <svg xmlns="http://www.w3.org/2000/svg" class="star" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
-                  </svg>
-                  <svg xmlns="http://www.w3.org/2000/svg" class="star" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
-                  </svg>
-                  <svg xmlns="http://www.w3.org/2000/svg" class="star" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
-                  </svg>
-                  <svg xmlns="http://www.w3.org/2000/svg" class="star" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
-                  </svg>
-                  <svg xmlns="http://www.w3.org/2000/svg" class="star2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
-                  </svg>
-                </div>
-                <p class="pBold center">4.95 out of 5 stars</p>
-                <p class="textXSmall center">from 23 reviews</p>
-            </div>
-
-            <div class="card">
-                <img src="images/amazon.svg" alt="airbnb logo" class="coloredLogo"/>
-                <p class="textXSmall center text-center">They build modern <br/> looking websites easily  <br/> using Tabs.</p>
-                <a class="learnMore">Learn more</a>
-            </div>
-
-            <div class="card">
-                <img src="images/slack.svg" alt="airbnb logo" class="coloredLogo"/>
-                <p class="textXSmall center text-center">They build modern <br/> looking websites easily  <br/> using Tabs.</p>
-                <a class="learnMore">Learn more</a>
-            </div>
-
-            <div class="card">
-                <img src="images/spotify.svg" alt="airbnb logo" class="coloredLogo"/>
-                <!-- ------------------stars---------------- -->
-                <div class="starDisplay">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                    </svg>
                     <svg xmlns="http://www.w3.org/2000/svg" class="star" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
-                  </svg>
-                  <svg xmlns="http://www.w3.org/2000/svg" class="star" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
-                  </svg>
-                  <svg xmlns="http://www.w3.org/2000/svg" class="star" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
-                  </svg>
-                  <svg xmlns="http://www.w3.org/2000/svg" class="star" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
-                  </svg>
-                  <svg xmlns="http://www.w3.org/2000/svg" class="star2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
-                  </svg>
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="star" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="star2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                    </svg>
+                    </div>
+                    <p class="pBold center">4.95 out of 5 stars</p>
+                    <p class="textXSmall center">from 23 reviews</p>
                 </div>
-                <p class="pBold center">4.95 out of 5 stars</p>
-                <p class="textXSmall center">from 23 reviews</p>
-            </div>
+            </button>
+            
+            <button class="btnCard">
+                <div class="card">
+                    <img src="images/amazon.svg" alt="airbnb logo" class="coloredLogo"/>
+                    <p class="textXSmall center text-center">They build modern <br/> looking websites easily  <br/> using Tabs.</p>
+                    <a class="learnMore">Learn more</a>
+                </div>
+            </button>
 
-            <div class="card">
-                <img src="images/paypal.svg" alt="airbnb logo" class="coloredLogo"/>
-                <p class="textXSmall center text-center">They build modern <br/> looking websites easily  <br/> using Tabs.</p>
-                <a class="learnMore">Learn more</a>
-            </div>
+            <button class="btnCard impairCard">
+                <div class="card">
+                    <img src="images/slack.svg" alt="airbnb logo" class="coloredLogo"/>
+                    <p class="textXSmall center text-center">They build modern <br/> looking websites easily  <br/> using Tabs.</p>
+                    <a class="learnMore">Learn more</a>
+                </div>
+            </button>
+
+            <button class="btnCard">
+                <div class="card">
+                    <img src="images/spotify.svg" alt="airbnb logo" class="coloredLogo"/>
+                    <!-- ------------------stars---------------- -->
+                    <div class="starDisplay">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="star" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="star" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="star" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="star" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="star2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                    </svg>
+                    </div>
+                    <p class="pBold center">4.95 out of 5 stars</p>
+                    <p class="textXSmall center">from 23 reviews</p>
+                </div>
+            </button>
+
+            <button class="btnCard impairCard">
+                <div class="card">
+                    <img src="images/paypal.svg" alt="airbnb logo" class="coloredLogo"/>
+                    <p class="textXSmall center text-center">They build modern <br/> looking websites easily  <br/> using Tabs.</p>
+                    <a class="learnMore">Learn more</a>
+                </div>
+            </button>
 
 
         </div>
@@ -490,12 +514,14 @@
       <!-- ------------------------------ helpfull Section -------------------------------------------- -->
 
       <section class="HelpfulAnswersSection">
-        <div class"helpfullTitle">
-            <h4>Helpfull answers</h4>
+        <div>
+            <div class="helpH4">
+                <h4>Helpfull answers</h4>
+            </div>
             <p>Start building fast, beautiful, and modern-looking websites in no time.</p>
         </div>
         <div class="accordionDisplay">
-            <!----------- accordion-------- -->
+            <!----------- accordion -------- -->
             <div>
                 <button class="accordion">
                     <div>
