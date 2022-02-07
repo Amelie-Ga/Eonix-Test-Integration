@@ -12,7 +12,6 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    <script src="script.js"></script>
   </head>
 
   <body>
@@ -101,7 +100,7 @@
             <div class="card">
                 <div class="cardTop">
                   <img src="images/mastercard.svg" class="cardLogo"/>
-                  <p class="active">Active</p>
+                  <p class="activeBtn">Active</p>
                 <div>
 
                 <div class="cardNumber">
@@ -223,36 +222,141 @@
       </section>
       <!-- ------------------------------ features Section -------------------------------------------- -->
 
-      <section class="featuresSection">
-      <!--
-        <div class="featuresText">
+      <section class="easyToInstallSection">
+         <div class="installText">
             <h3 class="green">Features</h3>
-            <p class="pBold">Get components and examples, including <br/>tons of variables that will help you grow your<br/> business.</p>
-
-            <div class="checkedDisplay">
-                <div class="checkbox"><div>
-                <div>
+            <p class="pBold">Get components and examples, including <br/>  tons of variables that will help you grow your <br/>  business.</p>
+            <div>
+                <div class="checked">
+                    <div class="greenBox">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="checkedIcon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                        </svg>
+                    </div>
                     <p class="greenText">Perfect for modern startups</p>
-                <div>
+                </div>
+                <div class="checked">
+                    <div class="greenBox">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="checkedIcon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                        </svg>
+                    </div>
+                    <p class="greenText">Fully customizable and scalable</p>
+                </div>
             </div>
         </div>
-          features video 
-        <div class="photo2">
-                <img src="images/img_02.jpg" alt="video miniature" class="img2"/>
-                <button class="btnVideo2">
+
+        <div class="installImage">
+            <img src="images/img_02.jpg" alt="photo de groupe" class="img3"/>
+            <button class="btnVideo3">
                     Play video
                     <svg xmlns="http://www.w3.org/2000/svg" class="svgRight" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
-                </button>
+            </button>
         </div>
-        -->
+      
       </section>
 
 
       <!-- ------------------------------ technonolies Section -------------------------------------------- -->
-      <section class="technologiesSection"></section>
+      <section class="technologiesSection">
+        <!-- ---------img tech------------------ -->
+        <div class="techImg">
+            <div>
+                <div class="card">
+                    <div>
+                        <img src="images/person_03.jpg" alt="portrait homme" class="person3Img"/>
+                    </div>
+                    <div class="bottomBigPicture">
+                        <div class="initialsRound">
+                            <p class="textWhite textXSmall">JH</p>
+                        </div>
+                        <p class="pBold textXSmall"> Jimmy Hendrix </p>
+                          <svg xmlns="http://www.w3.org/2000/svg" class="icons" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="cardFlex">
+                    <div class="checkRound">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="checkRoundIcon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                        </svg>
+                    </div>
+                    <div>
+                        <p class="pBold">300+ components</p>
+                        <p class="textXSmall">Built to be customized.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- ---------brand div------------------ -->
+            <div>
+                <div class="card">
+                <img src="images/airbnb.svg" alt="airbnb logo" class="coloredLogo"/>
+                <!-- ------------------stars---------------- -->
+                <div class="starDisplay">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="star" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="star" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="star" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="star" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="star2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                  </svg>
+                </div>
+                <p class="pBold center">4.95 out of 5 stars</p>
+                <p class="textXSmall center">from 23 reviews</p>
+                </div>
+
+                <div class="card">
+                    <img src="images/company_01.png" alt="infinite logo" class="company1"/>
+                    <p class="pBold center">Website UI Kit</p>
+                    <div class="pictureDisplay">
+                        <img src="images/person_01.jpg" alt="portrait" class="portrait"/>
+                        <img src="images/person_02.jpg" alt="portrait" class="portrait"/>
+                        <img src="images/person_03.jpg" alt="portrait" class="portrait"/>
+                    </div>
+
+                    <div class="likes">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icons" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" />
+                        </svg>
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icons" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                        </svg>
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icons" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                        </svg>
+                    </div>
+                </div>
+
+
+                
+
+
+            </div>
+        </div>
+        <!-- ---------text tech------------------ -->
+         <div class="installText">
+            <h3 class="blue">Technology</h3>
+            <h4 class="pBold">We use the latest <br/>technologies on the market</h4>
+            <p>Get components and examples, including tons <br/> of variables that will help you grow your business.</p>
+            <a href="#" class="techLink">See case studies</a>
+        </div>
+      </section>
 
 
 
@@ -386,13 +490,240 @@
       <!-- ------------------------------ helpfull Section -------------------------------------------- -->
 
       <section class="HelpfulAnswersSection">
+        <div class"helpfullTitle">
+            <h4>Helpfull answers</h4>
+            <p>Start building fast, beautiful, and modern-looking websites in no time.</p>
+        </div>
+        <div class="accordionDisplay">
+            <!----------- accordion-------- -->
+            <div>
+                <button class="accordion">
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="accordionIcons" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                        </svg>
+                        Which license do I need?
+                    </div>
+                    <p>+</p>
+                </button>
+                <div class="panel">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sagittis molestie sapien eget ultrices. Praesent eget eros pretium, tincidunt lectus eget, varius magna. Morbi dolor nulla, feugiat non leo eu, rutrum iaculis tortor. Pellentesque metus ante, cursus sed massa eu, commodo iaculis turpis. </p>
+                </div>
+
+                <button class="accordion">
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="accordionIcons" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 11V7a4 4 0 118 0m-4 8v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2z" />
+                        </svg>
+                        How do I get access to my database?
+                    </div>
+                    <p>+</p>
+                </button>
+                <div class="panel">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sagittis molestie sapien eget ultrices. Praesent eget eros pretium, tincidunt lectus eget, varius magna. Morbi dolor nulla, feugiat non leo eu, rutrum iaculis tortor. Pellentesque metus ante, cursus sed massa eu, commodo iaculis turpis. </p>
+                </div>
+
+                <button class="accordion">
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="accordionIcons" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" />
+                        </svg>
+                        How do I see previous orders?
+                    </div>
+                    <p>+</p>
+                </button>
+                <div class="panel">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sagittis molestie sapien eget ultrices. Praesent eget eros pretium, tincidunt lectus eget, varius magna. Morbi dolor nulla, feugiat non leo eu, rutrum iaculis tortor. Pellentesque metus ante, cursus sed massa eu, commodo iaculis turpis. </p>
+                </div>
+            </div>
+                <div>
+                    <button class="accordion">
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="accordionIcons" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                        </svg>
+                        Which license do I need?
+                     </div>
+                     <p>+</p>
+                    </button>
+                    <div class="panel">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sagittis molestie sapien eget ultrices. Praesent eget eros pretium, tincidunt lectus eget, varius magna. Morbi dolor nulla, feugiat non leo eu, rutrum iaculis tortor. Pellentesque metus ante, cursus sed massa eu, commodo iaculis turpis. </p>
+                    </div>
+
+                    <button class="accordion">
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="accordionIcons" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 11V7a4 4 0 118 0m-4 8v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2z" />
+                            </svg>
+                            How do I get access to my database?
+                        </div>
+                        <p>+</p>
+                    </button>
+                    <div class="panel">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sagittis molestie sapien eget ultrices. Praesent eget eros pretium, tincidunt lectus eget, varius magna. Morbi dolor nulla, feugiat non leo eu, rutrum iaculis tortor. Pellentesque metus ante, cursus sed massa eu, commodo iaculis turpis. </p>
+                    </div>
+
+                    <button class="accordion">
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="accordionIcons" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" />
+                            </svg>
+                            How do I see previous orders?
+                        </div>
+                        <p>+</p>
+                    </button>
+                    <div class="panel">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sagittis molestie sapien eget ultrices. Praesent eget eros pretium, tincidunt lectus eget, varius magna. Morbi dolor nulla, feugiat non leo eu, rutrum iaculis tortor. Pellentesque metus ante, cursus sed massa eu, commodo iaculis turpis. </p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <p class="pBold"> I want to start a new project.</p>
+            <div class="buttonAnwersDisplay">
+                <button class="btn1">
+                    Buy now 
+                    <svg xmlns="http://www.w3.org/2000/svg" class="svgRight" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                    </svg>
+                </button>
+                <button class="btn4">Learn more </button>
+            </div>
+        </div>
       </section>
       
     </div>
 
     <!-- ------------------------------ footer Section -------------------------------------------- -->
+    <div class="inclineBackgroundFooter"></div>
     <footer>
-      <div class="wrapper"></div>
+      <div class="wrapper">
+
+        <!-- ------------- brillant solutions ----------------- -->
+        <div class="footerTop">
+            <div>
+                <h4>Brilliant solutions for your ideas</h4>
+                <p>Modern-looking websites.</p>
+            </div>
+            <div class="buttonAnwersDisplay">
+                <button class="btn2">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="svgDoc" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                    </svg>
+                    Documentation
+                </button>
+                <button class="btn1">
+                    Purchase now
+                </button>
+            </div>
+        </div>
+
+        <!-- ------------- oodoo ----------------- -->
+        <div class="footerMiddle">
+            <div class="footerText">
+                <img src="images/odoo-white.svg" alt="logo" class="logo"/>
+                <p class="textWhite margin">Odoo attempts to bring the best development <br/> experience to designers and developers by offering <br/>  the tools needed for having a quick and solid start in <br/>  most web projects.</p>
+                <div class="socialMedia">
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                            width="16" height="16"
+                            viewBox="0 0 172 172"
+                            style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g id="original-icon" fill="#ffffff"><path d="M86,6.88c-43.65603,0 -79.12,35.46397 -79.12,79.12c0,43.65603 35.46397,79.12 79.12,79.12c43.65603,0 79.12,-35.46397 79.12,-79.12c0,-43.65603 -35.46397,-79.12 -79.12,-79.12zM86,13.76c39.9378,0 72.24,32.3022 72.24,72.24c0,39.9378 -32.3022,72.24 -72.24,72.24c-7.30534,0 -14.35268,-1.09343 -20.9961,-3.10406c2.95925,-4.94754 6.77977,-12.01959 8.29766,-17.85844c0.90174,-3.46189 4.60906,-17.58297 4.60906,-17.58297c2.40939,4.59974 9.44913,8.4925 16.94469,8.4925c22.30463,0 38.38422,-20.51269 38.38422,-46.00328c0,-24.43809 -19.94172,-42.71781 -45.60016,-42.71781c-31.92227,0 -48.86547,21.4249 -48.86547,44.7536c0,10.84936 5.77038,24.35441 15.00969,28.65547c1.39955,0.65142 2.15106,0.36923 2.4725,-0.98765c0.24748,-1.02975 1.49554,-6.04958 2.05594,-8.385c0.17921,-0.74528 0.09244,-1.38921 -0.51063,-2.12313c-3.05796,-3.70937 -5.50937,-10.52263 -5.50937,-16.8775c0,-16.31387 12.35056,-32.10219 33.39219,-32.10219c18.16856,0 30.89281,12.38555 30.89281,30.09328c0,20.00618 -10.10191,33.86922 -23.24688,33.86922c-7.25945,0 -12.69531,-6.0056 -10.95156,-13.37031c2.09079,-8.78986 6.1275,-18.27503 6.1275,-24.62422c0,-5.67785 -3.04702,-10.41406 -9.35922,-10.41406c-7.4216,0 -13.38375,7.6731 -13.38375,17.95922c0,6.54546 2.21719,10.97844 2.21719,10.97844c0,0 -7.33125,30.99611 -8.67391,36.765c-1.34553,5.76473 -0.98516,13.529 -0.43,19.30969c-26.46769,-10.7133 -45.1164,-36.62729 -45.1164,-66.96578c0,-39.9378 32.3022,-72.24 72.24,-72.24z"></path></g></g>
+                        </svg>
+                    </a>
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                            width="16" height="16"
+                            viewBox="0 0 172 172"
+                            style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g id="original-icon" fill="#ffffff"><path d="M78.11667,15.05c-32.96667,3.58333 -59.48333,30.1 -63.06667,62.35c-3.58333,33.68333 15.76667,63.78333 45.15,75.25c2.15,0.71667 4.3,-0.71667 4.3,-3.58333v-11.46667c0,0 -2.86667,0.71667 -6.45,0.71667c-10.03333,0 -14.33333,-8.6 -15.05,-13.61667c-0.71667,-2.86667 -2.15,-5.01667 -4.3,-7.16667c-2.15,-0.71667 -2.86667,-0.71667 -2.86667,-1.43333c0,-1.43333 2.15,-1.43333 2.86667,-1.43333c4.3,0 7.88333,5.01667 9.31667,7.16667c3.58333,5.73333 7.88333,7.16667 10.03333,7.16667c2.86667,0 5.01667,-0.71667 6.45,-1.43333c0.71667,-5.01667 2.86667,-10.03333 7.16667,-12.9c-16.48333,-3.58333 -28.66667,-12.9 -28.66667,-28.66667c0,-7.88333 3.58333,-15.76667 8.6,-21.5c-0.71667,-1.43333 -1.43333,-5.01667 -1.43333,-10.03333c0,-2.86667 0,-7.16667 2.15,-11.46667c0,0 10.03333,0 20.06667,9.31667c3.58333,-1.43333 8.6,-2.15 13.61667,-2.15c5.01667,0 10.03333,0.71667 14.33333,2.15c9.31667,-9.31667 20.06667,-9.31667 20.06667,-9.31667c1.43333,4.3 1.43333,8.6 1.43333,11.46667c0,5.73333 -0.71667,8.6 -1.43333,10.03333c5.01667,5.73333 8.6,12.9 8.6,21.5c0,15.76667 -12.18333,25.08333 -28.66667,28.66667c4.3,3.58333 7.16667,10.03333 7.16667,16.48333v18.63333c0,2.15 2.15,4.3 5.01667,3.58333c26.51667,-10.75 45.15,-36.55 45.15,-66.65c0,-43 -36.55,-76.68333 -79.55,-71.66667z"></path></g></g>
+                        </svg>
+                    </a>
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                            width="16" height="16"
+                            viewBox="0 0 172 172"
+                            style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M51.31446,10.75c-22.33984,0 -40.56446,18.22461 -40.56446,40.56446v58.66308c0,22.29785 18.22461,40.52246 40.56446,40.52246h58.66308c22.29785,0 40.52246,-18.2246 40.52246,-40.56445v-58.62109c0,-22.33984 -18.2246,-40.56446 -40.56445,-40.56446zM51.31446,21.5h58.62109c16.54492,0 29.81445,13.26953 29.81445,29.81446v58.62109c0,16.54492 -13.26953,29.81445 -29.77246,29.81445h-58.66308c-16.54493,0 -29.81446,-13.26953 -29.81446,-29.77246v-58.66308c0,-16.54493 13.26953,-29.81446 29.81446,-29.81446zM123.625,32.25c-2.98145,0 -5.375,2.39355 -5.375,5.375c0,2.98145 2.39355,5.375 5.375,5.375c2.98145,0 5.375,-2.39355 5.375,-5.375c0,-2.98145 -2.39355,-5.375 -5.375,-5.375zM80.625,43c-20.70215,0 -37.625,16.92285 -37.625,37.625c0,20.70215 16.92285,37.625 37.625,37.625c20.70215,0 37.625,-16.92285 37.625,-37.625c0,-20.70215 -16.92285,-37.625 -37.625,-37.625zM80.625,53.75c14.90723,0 26.875,11.96777 26.875,26.875c0,14.90723 -11.96777,26.875 -26.875,26.875c-14.90723,0 -26.875,-11.96777 -26.875,-26.875c0,-14.90723 11.96777,-26.875 26.875,-26.875z"></path></g></g>
+                        </svg>
+                    </a>
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                            width="16" height="16"
+                            viewBox="0 0 172 172"
+                            style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M86,10.32c-41.796,0 -75.68,33.884 -75.68,75.68c0,37.9432 27.95,69.27128 64.36928,74.74432v-54.68568h-18.72392v-19.89352h18.72392v-13.23712c0,-21.91624 10.67776,-31.53792 28.89256,-31.53792c8.72384,0 13.33688,0.64672 15.52128,0.94256v17.36512h-12.42528c-7.73312,0 -10.43352,7.33064 -10.43352,15.59352v10.87384h22.66272l-3.07536,19.89352h-19.58736v54.84736c36.93872,-5.01208 65.43568,-36.59472 65.43568,-74.906c0,-41.796 -33.884,-75.68 -75.68,-75.68z"></path></g></g>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <!-- ---------- account about company ------------>
+            <div class="footerList">
+                <div>
+                    <label>Account</label>
+                    <ul>
+                        <li><a href="#">Profile</a></li>
+                        <li><a href="#">Settings</a></li>
+                        <li><a href="#">Billing</a></li>
+                        <li><a href="#">Notifications</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <label>About</label>
+                    <ul>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <label>Company</label>
+                    <ul>
+                        <li><a href="#">Community</a></li>
+                        <li><a href="#">Help center</a></li>
+                        <li><a href="#">Support</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <ul>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- ------------- footer footer ----------------- -->
+        <div class="footer">
+            <p>© <b>Odoo</b>. All rights reserved</p>
+            <div>
+                <ul>
+                    <li><a href="#">Terms</a><li>
+                    <li><a href="#">Privacy</a><li>
+                    <li><a href="#">Cookies</a><li>
+                <ul>
+            </div>
+        </div>
+      </div>
     </footer>
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+            panel.style.display = "none";
+            } else {
+            panel.style.display = "block";
+            }
+        });
+        }
+    </script>
   </body>
 </html>

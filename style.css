@@ -81,6 +81,27 @@ p {
 .btn3:hover {
   opacity: 85%;
 }
+
+.btn4 {
+  width: auto;
+  height: 30px;
+  border: none;
+  background: transparent;
+  color: rgb(85, 81, 81);
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  margin-right: 5px;
+  padding-right: 15px;
+  padding-left: 15px;
+  font-weight: bold;
+  font-size: small;
+}
+.btn4:hover {
+  opacity: 85%;
+}
 section {
   margin-top: 50px;
   margin-bottom: 50px;
@@ -116,9 +137,6 @@ h3 {
 
 .green {
   background-color: #5ccaa7;
-}
-.greenText {
-  color: #5ccaa7;
 }
 
 .blue {
@@ -247,7 +265,7 @@ li a:hover {
   height: 20px;
 }
 
-.active {
+.activeBtn {
   background-color: #5ccaa7;
   border-radius: 2px;
   padding: 4px;
@@ -374,47 +392,131 @@ li a:hover {
 .checkedDisplay {
 }
 
-.checkbox {
+.greenBox {
   background-color: #5ccaa7;
-  height: 10px;
-  width: 10px;
+  height: 15px;
+  width: 15px;
   border-radius: 2px;
+  position: relative;
+  margin-right: 5px;
 }
 
 .checkedIcon {
   color: whitesmoke;
+  position: absolute;
 }
 
-.photo2 {
-}
-.img2 {
-  width: 400px;
-  height: auto;
-  border-radius: 10px;
-}
-.btnVideo2 {
-  font-size: x-small;
-  font-weight: bold;
-  transform: translate(90%, -520%);
-  color: rgb(85, 81, 81);
-  width: auto;
-  height: 30px;
-  border: none;
-  border-radius: 5px;
+.checked {
   display: flex;
-  justify-content: space-between;
-  text-align: center;
   align-items: center;
-  background: whitesmoke;
+}
+
+.greenText {
+  color: #5ccaa7;
   margin: 5px;
-  padding-right: 10px;
-  padding-left: 10px;
 }
-.btnVideo2:hover {
-  opacity: 80%;
-}
+
 /*------------------------------tech -----------------------------------*/
 .technologiesSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.techLink {
+  color: #038afe;
+  border-bottom: solid 3px #038afe;
+  text-decoration: none;
+}
+
+.company1 {
+  border-radius: 50%;
+  width: auto;
+  margin: auto;
+  height: 45px;
+  margin-bottom: 10px;
+}
+
+.portrait {
+  border-radius: 50%;
+  width: auto;
+  margin: -8px;
+  height: 25px;
+  margin-bottom: 10px;
+  border: solid 1px white;
+}
+
+.likes {
+  display: flex;
+  justify-content: space-between;
+  border-top: solid 1px rgb(85, 81, 81);
+}
+
+.icons {
+  width: auto;
+  height: 15px;
+  margin: 5px;
+  color: rgb(85, 81, 81);
+}
+
+.bottomBigPicture {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.initialsRound {
+  background-color: #febd3d;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  padding-left: 5px;
+  padding-top: 2px;
+}
+
+.person3Img {
+  margin: 0;
+  padding: 0;
+  width: 150px;
+  height: auto;
+}
+
+.checkRound {
+  background-color: #5ccaa7;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  position: relative;
+}
+
+.checkRoundIcon {
+  color: white;
+  font-weight: bold;
+  width: 20px;
+  margin-left: 5px;
+  margin-top: 5px;
+  position: absolute;
+}
+.cardFlex {
+  margin: 10px;
+  background-color: white;
+  box-shadow: 2px 2px 2px 2px rgba(180, 180, 180, 0.2);
+  border-radius: 10px;
+  width: 150px;
+  height: auto;
+  padding: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: inline-flex;
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+}
+
+.techImg {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 /*------------------------------easy------------------------------------*/
 .easyToInstallSection {
@@ -546,4 +648,142 @@ li a:hover {
 }
 /*------------------------------help------------------------------------*/
 .HelpfulAnswersSection {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttonAnwersDisplay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*----------------------footer-----------------------*/
+
+.inclineBackgroundFooter {
+  background: #161348;
+  transform-origin: bottom;
+  transform: skewY(-2deg);
+  height: 50px;
+  margin-bottom: -25px;
+}
+footer {
+  background: #161348;
+  padding-bottom: 10%;
+  padding-top: 40px;
+}
+.socialMedia a {
+  text-decoration: none;
+  margin-right: 15px;
+}
+.footerMiddle {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin-bottom: 30px;
+}
+
+.footer {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  font-size: x-small;
+}
+
+.footerList {
+  display: flex;
+}
+
+.footerList a {
+  font-size: x-small;
+  font-weight: lighter;
+}
+
+.footerList li {
+  display: flex;
+  margin-top: -15px;
+  margin-bottom: -15px;
+}
+
+.footerList label {
+  font-size: x-small;
+  font-weight: bold;
+  color: white;
+  margin-left: 41px;
+  margin-bottom: 7px;
+}
+
+.svgDoc {
+  width: 20px;
+  height: auto;
+  margin-right: 6px;
+  color: #038afe;
+}
+
+.footerTop div {
+  color: white;
+}
+
+.footerTop {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin-bottom: 30px;
+}
+
+.margin {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+/* accordion */
+
+.accordion {
+  background-color: white;
+  color: rgb(85, 81, 81);
+  cursor: pointer;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  margin: 10px;
+  box-shadow: 2px 2px 2px 2px rgba(180, 180, 180, 0.2);
+  border-radius: 10px;
+  width: 400px;
+  height: 40px;
+  padding: 10px;
+  font-size: small;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.active,
+.accordion:hover {
+  background-color: #ccc;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+  width: 400px;
+}
+
+.accordionDisplay {
+  display: flex;
+  align-content: center;
+  justify-content: space-evenly;
+}
+
+.accordionIcons {
+  width: 20px;
+  height: auto;
+  margin-right: 6px;
 }
